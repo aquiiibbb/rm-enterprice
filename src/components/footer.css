@@ -1,0 +1,349 @@
+/* Reset and Base Styles */
+.calgon-main-footer {
+    background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+    color: #e5e7eb;
+    margin-top: auto;
+}
+
+.calgon-footer-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Top Section */
+.calgon-footer-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 3rem;
+    padding: 4rem 0 3rem;
+    border-bottom: 1px solid #374151;
+}
+
+/* Brand Section */
+.calgon-footer-brand {
+    max-width: 350px;
+}
+
+.calgon-footer-logo {
+    margin-bottom: 1.5rem;
+}
+
+.calgon-footer-logo-image {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.calgon-footer-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #d1d5db;
+    margin-bottom: 2rem;
+}
+
+.calgon-footer-social {
+    display: flex;
+    gap: 1rem;
+}
+
+.calgon-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: #d1d5db;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.calgon-social-link:hover {
+    background: #2563eb;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Links Sections */
+.calgon-footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.calgon-footer-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.calgon-footer-title::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background: #2563eb;
+    border-radius: 1px;
+}
+
+.calgon-footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.calgon-footer-list li {
+    margin-bottom: 0.8rem;
+}
+
+.calgon-footer-link {
+    color: #d1d5db;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.calgon-footer-link:hover {
+    color: #2563eb;
+    transform: translateX(5px);
+}
+
+/* Contact Section */
+.calgon-footer-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.calgon-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    color: #d1d5db;
+    font-size: 0.95rem;
+}
+
+.calgon-contact-item svg {
+    color: #2563eb;
+    flex-shrink: 0;
+}
+
+.calgon-contact-item a {
+    color: #d1d5db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.calgon-contact-item a:hover {
+    color: #2563eb;
+}
+
+/* Bottom Section */
+.calgon-footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.calgon-footer-copyright p {
+    color: #9ca3af;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.calgon-footer-legal {
+    display: flex;
+    gap: 2rem;
+}
+
+.calgon-legal-link {
+    color: #9ca3af;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.calgon-legal-link:hover {
+    color: #2563eb;
+}
+
+/* Tablet Responsive */
+@media (max-width: 1024px) {
+    .calgon-footer-container {
+        padding: 0 1.5rem;
+    }
+    
+    .calgon-footer-top {
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem;
+        padding: 3rem 0 2.5rem;
+    }
+    
+    .calgon-footer-brand {
+        max-width: none;
+    }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .calgon-footer-container {
+        padding: 0 1rem;
+    }
+    
+    .calgon-footer-top {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 2.5rem 0 2rem;
+        text-align: center;
+    }
+    
+    .calgon-footer-brand {
+        max-width: none;
+        text-align: center;
+    }
+    
+    .calgon-footer-social {
+        justify-content: center;
+    }
+    
+    .calgon-footer-links,
+    .calgon-footer-contact {
+        text-align: center;
+    }
+    
+    .calgon-footer-title::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .calgon-contact-item {
+        justify-content: center;
+    }
+    
+    .calgon-footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.5rem 0;
+    }
+    
+    .calgon-footer-legal {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .calgon-footer-container {
+        padding: 0 0.5rem;
+    }
+    
+    .calgon-footer-top {
+        gap: 1.5rem;
+        padding: 2rem 0 1.5rem;
+    }
+    
+    .calgon-footer-logo-image {
+        height: 50px;
+    }
+    
+    .calgon-footer-description {
+        font-size: 0.95rem;
+    }
+    
+    .calgon-social-link {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .calgon-footer-title {
+        font-size: 1.1rem;
+    }
+    
+    .calgon-footer-link,
+    .calgon-contact-item {
+        font-size: 0.9rem;
+    }
+    
+    .calgon-footer-legal {
+        gap: 1rem;
+    }
+    
+    .calgon-legal-link,
+    .calgon-footer-copyright p {
+        font-size: 0.85rem;
+    }
+}
+
+/* Focus states for accessibility */
+.calgon-footer-link:focus,
+.calgon-social-link:focus,
+.calgon-legal-link:focus,
+.calgon-contact-item a:focus {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+    .calgon-main-footer {
+        background: white !important;
+        color: black !important;
+    }
+    
+    .calgon-footer-social {
+        display: none;
+    }
+    
+    .calgon-footer-logo-image {
+        filter: none;
+    }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .calgon-main-footer {
+        background: #000;
+        color: #fff;
+    }
+    
+    .calgon-footer-link:hover,
+    .calgon-social-link:hover {
+        background: #fff;
+        color: #000;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    .calgon-footer-link,
+    .calgon-social-link,
+    .calgon-legal-link,
+    .calgon-contact-item a {
+        transition: none;
+    }
+    
+    .calgon-social-link:hover {
+        transform: none;
+    }
+    
+    .calgon-footer-link:hover {
+        transform: none;
+    }
+}
+
+/* Loading state */
+.calgon-footer-logo-image[src=""] {
+    display: none;
+}
