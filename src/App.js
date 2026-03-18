@@ -5,7 +5,6 @@ import About from './pages/about';
 import Home from './pages/home';
 import Contact from './pages/contact';
 import Product from './pages/product';
-import Support from './pages/costomer';
 import Service from './pages/service';
 import Costomer from './pages/costomer';
 
@@ -20,7 +19,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/product" element={<Product />} />
-          <Route path="/support" element={<Support />} />
           <Route path="/service" element={<Service/>} />
           <Route path="/costomer" element={<Costomer/>} />
         </Routes>

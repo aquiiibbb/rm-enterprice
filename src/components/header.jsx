@@ -86,7 +86,7 @@ export default function Header() {
                 <nav className={`calgon-primary-nav ${isMobileMenuOpen ? 'active' : ''}`}>
                     <button 
                         className="calgon-nav-item"
-                        onClick={() => handleNavClick('/home')}
+                        onClick={() => handleNavClick('/')}
                     >
                         Home
                     </button>
@@ -121,7 +121,7 @@ export default function Header() {
                             </button>
                             <button 
                                 className="calgon-dropdown-link"
-                                onClick={() => handleNavClick('/customer')}
+                                onClick={() => handleNavClick('/costomer')}
                             >
                                 <span className="dropdown-icon">👥</span>
                                 Customer Support
