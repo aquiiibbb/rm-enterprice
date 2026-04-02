@@ -303,8 +303,7 @@ export default function Home(){
                             <img src="https://www.calgonscientific.com/images/lab/automation_medical_laboratory.jpg" alt="Laboratory equipments" />
                         </div>
                         <h3>Laboratory equipments</h3>
-                        <p>RM Enterprise offers a wide range of innovative laboratory equipment and instruments designed for numerous applications in research
-(Note: Maine "Calgon Scientific" ki jagah aapki company ka naam RM Enterprise add kiya hai).
+                        <p>RM Enterprise offers a wide range of innovative laboratory equipment and instruments designed for numerous applications in research.
 </p>
                     </div>
 
