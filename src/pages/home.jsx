@@ -217,9 +217,7 @@ export default function Home(){
                          <div className="logo-item">
                             <img src="https://www.microlit.com/wp-content/webp-express/webp-images/themes/microlit/assets/images/logo.png.webp" alt="az" />
                         </div>                      
-                         <div className="logo-item">
-                            <img src="http://axivasichem.com/images/logo-wide.png" alt="az" />
-                        </div>                      
+                                          
                          <div className="logo-item">
                             <img src="https://www.nupore.com/wp-content/uploads/2024/12/Nupore-Logo_desktop.webp" alt="az" />
                         </div>                      
