@@ -95,12 +95,12 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li>
-                                <a href="tel:+911234567890" className="calgon-footer-link">
+                                <a href="tel:+916352306558" className="calgon-footer-link">
                                     Call Support
                                 </a>
                             </li>
                             <li>
-                                <a href="mailto:support@calgon.com" className="calgon-footer-link">
+                                <a href="rmenterprisebharuch@gmail.com" className="calgon-footer-link">
                                     Email Support
                                 </a>
                             </li>
