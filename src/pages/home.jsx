@@ -330,7 +330,7 @@ export default function Home(){
                             <h2>Who we are?</h2>
                             <p className="about-description">
                                 One of the leading suppliers of Laboratory Chemicals, Glasswares, 
-                                Equipments, Filtration products and other Consumables etc. in Kerala 
+                                Equipments, Filtration products and other Consumables etc. in Gujrat 
                                 reagion.
                             </p>
                             
