@@ -234,11 +234,7 @@ export default function CustomerSupport() {
             </section>
 
             {/* Footer */}
-            <footer className="support-footer">
-                <div className="container">
-                    <p>Copyright © 2026 Calgon Scientific CO. All Rights Reserved. Designed by Excelsis Deo</p>
-                </div>
-            </footer>
+            
         </div>
     )
 }

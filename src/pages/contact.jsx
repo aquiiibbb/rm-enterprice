@@ -86,7 +86,7 @@ export default function Contact(){
                                     <div className="card-content">
                                         <h4>Email Address</h4>
                                         <p>rmenterprisebharuch@gmail.com</p>
-                                        <a href="mailto:info@calgonscientific.com" className="contact-link">Send Email</a>
+                                        <a href="mailto:rmenterprisebharuch@gmail.com" className="contact-link">Send Email</a>
                                     </div>
                                 </div>
 
@@ -125,7 +125,7 @@ export default function Contact(){
                                     <div className="card-content">
                                         <h4>Website</h4>
                                         <p>www.rmenterprise.com</p>
-                                        <a href="http://www.rmenterprise.com" target="_blank" rel="noopener noreferrer" className="contact-link">Visit Website</a>
+                                        <a href="https://rmenterprise.vercel.app/" target="_blank" rel="noopener noreferrer" className="contact-link">Visit Website</a>
                                     </div>
                                 </div>
                             </div>
