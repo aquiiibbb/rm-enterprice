@@ -64,7 +64,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link to="/about" className="calgon-footer-link" onClick={handleNavClick}>
-                                    About Calgon
+                                    About R M Enterprise
                                 </Link>
                             </li>
                             <li>
@@ -114,7 +114,7 @@ export default function Footer() {
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                             </svg>
-                            <span>B-1, ANUPAM NAGAR, GUJRAT - 393110 </span>
+                            <span>B-1, ANUPAM NAGAR, NANASANJA, JHAGADIA, BHARUCH, GUJRAT - 393110 </span>
                         </div>
                         <div className="calgon-contact-item">
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -132,22 +132,12 @@ export default function Footer() {
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                             </svg>
-                            <span>Mon-Fri: 9 AM - 6 PM</span>
+                            <span>Office Time  - Mon to Sat.</span>
                         </div>
                     </div>
                 </div>
 
-                {/* Bottom Section */}
-                <div className="calgon-footer-bottom">
-                    <div className="calgon-footer-copyright">
-                        <p>Copyright © 2026 Calgon Scientific CO. All Rights Reserved. Designed by Excelsis Deo</p>
-                    </div>
-                    <div className="calgon-footer-legal">
-                        <a href="#" className="calgon-legal-link">Privacy Policy</a>
-                        <a href="#" className="calgon-legal-link">Terms of Service</a>
-                        <a href="#" className="calgon-legal-link">Cookie Policy</a>
-                    </div>
-                </div>
+               
             </div>
         </footer>
     )

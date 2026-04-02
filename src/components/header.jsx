@@ -94,7 +94,7 @@ export default function Header() {
                         className="calgon-nav-item"
                         onClick={() => handleNavClick('/about')}
                     >
-                        About Calgon
+                        About R M Enterprise
                     </button>
                     <button 
                         className="calgon-nav-item"
