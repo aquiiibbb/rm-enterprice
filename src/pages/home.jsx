@@ -1,5 +1,9 @@
 import './home.css'
 import { useEffect, useRef, useState } from 'react';
+import logo1 from '../assest/hal.jpeg'
+import logo2 from '../assest/hal1.jpeg'
+import imaage1 from '../assest/fr.jpeg'
+import imaage2 from '../assest/lab.png'
 
 export default function Home(){
     const contentRef = useRef(null);
@@ -136,12 +140,12 @@ export default function Home(){
                         <div className="slide-content">
                             <div className="slide-text">
                                 <h2>ULT Freezer</h2>
-                                <h3>Bio Safety Cabinet</h3>
+                                
                                 <p>ULT freezer gives you safe long-term storage for lesser-used items. Table-top, Chest and under-bench ULT freezers are also available. With removable inventory racks, an ultra low temperature freezer can be used to store both freezer boxes and larger items.</p>
                               
                             </div>
                             <div className="slide-image">
-                                <img src="https://www.woodleyequipment.com/images/products/398_Medical%20Laboratory%20Freezer%2050%20Litres.png" alt="ULT Freezer" />
+                                <img src={imaage1} alt="ULT Freezer" />
                             </div>
                         </div>
                     </div>
@@ -155,7 +159,7 @@ export default function Home(){
                                 
                             </div>
                             <div className="slide-image">
-                                <img src="https://png.pngtree.com/thumb_back/fh260/background/20251124/pngtree-a-collection-of-colorful-liquids-in-various-laboratory-glassware-against-white-image_20580839.webp" alt="Laboratory Plasticware" />
+                                <img src={imaage2} alt="Laboratory Plasticware" />
                             </div>
                         </div>
                     </div>
@@ -177,9 +181,9 @@ export default function Home(){
                     <div className="slide">
                         <div className="slide-content">
                             <div className="slide-text">
-                                <h2>Autoclaves &</h2>
-                                <h3>Chillers</h3>
-                                <p>Your success circulates at every degree. Optimize your cooling and heating applications with outstanding performance and innovative technology. Choose from a selection of lab water baths, refrigerated and heated bath circulators, chillers and immersion coolers.</p>
+                                <h2>Autoclaves </h2>
+                                <h3></h3>
+                                <p>Ensure maximum safety and efficiency in your laboratory with our high-performance autoclaves. Designed for reliable and precise sterilization, our top-quality steam sterilizers effectively decontaminate glassware, instruments, and culture media to meet your daily research needs.</p>
                                 
                             </div>
                             <div className="slide-image">
@@ -207,6 +211,12 @@ export default function Home(){
                     <div className="logos-scroll">
                          <div className="logo-item">
                             <img src="https://polylab.in/uploads/profile/01KHZD0NKD7RYT41K41Y2K63KA.png" alt="az" />
+                        </div>                      
+                         <div className="logo-item">
+                            <img src={logo2} alt="az" />
+                        </div>                      
+                         <div className="logo-item">
+                        <img src={logo1} alt="az" />
                         </div>                      
                          <div className="logo-item">
                             <img src="https://www.rakiro.net/template/front_assets/images/logo/logo.png" alt="az" />
@@ -330,8 +340,8 @@ export default function Home(){
                             <h2>Who we are?</h2>
                             <p className="about-description">
                                 One of the leading suppliers of Laboratory Chemicals, Glasswares, 
-                                Equipments, Filtration products and other Consumables etc. in Gujrat 
-                                reagion.
+                                Equipments, Filtration products and other Consumables etc. in Gujarat 
+                                region.
                             </p>
                             
                             <div className="features-grid">

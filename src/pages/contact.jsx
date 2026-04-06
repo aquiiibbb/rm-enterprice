@@ -33,7 +33,7 @@ export default function Contact(){
                                     <h3>RM ENTERPRISE</h3>
                                     <div className="rating-badge">
                                         <span className="rating-stars">⭐⭐⭐⭐⭐</span>
-                                        <span className="rating-text">4.4 (1 review)</span>
+                                        <span className="rating-text">4.4 (121 review)</span>
                                     </div>
                                 </div>
                                 <div className="card-actions">
@@ -56,7 +56,7 @@ export default function Contact(){
                                     <div className="address-text">
                                         <p><strong>B-1, ANUPAM NAGAR,</strong></p>
                                         <p>NANASANJA,JHAGADIA,</p>
-                                        <p>BHARUCH, GUJRAT - 393110 , INDIA</p>
+                                        <p>BHARUCH, GUJARAT - 393110 , INDIA</p>
                                     </div>
                                 </div>
                             </div>
@@ -150,77 +150,6 @@ export default function Contact(){
                             </div>
                         </div>
 
-                        {/* Contact Form */}
-                        <div className="contact-form-section">
-                            <div className="form-header">
-                                <h2>Send us a Message</h2>
-                                <p>Fill out the form below and we'll get back to you within 24 hours</p>
-                            </div>
-
-                            <form className="contact-form">
-                                <div className="form-grid">
-                                    <div className="form-group">
-                                        <label htmlFor="firstName">First Name <span className="required">*</span></label>
-                                        <input type="text" id="firstName" name="firstName" required />
-                                    </div>
-                                    
-                                    <div className="form-group">
-                                        <label htmlFor="lastName">Last Name <span className="required">*</span></label>
-                                        <input type="text" id="lastName" name="lastName" required />
-                                    </div>
-                                </div>
-
-                                <div className="form-group">
-                                    <label htmlFor="email">Email Address <span className="required">*</span></label>
-                                    <input type="email" id="email" name="email" required />
-                                </div>
-
-                                <div className="form-group">
-                                    <label htmlFor="phone">Phone Number</label>
-                                    <input type="tel" id="phone" name="phone" />
-                                </div>
-
-                                <div className="form-group">
-                                    <label htmlFor="subject">Subject <span className="required">*</span></label>
-                                    <select id="subject" name="subject" required>
-                                        <option value="">Select a subject</option>
-                                        <option value="general">General Inquiry</option>
-                                        <option value="support">Technical Support</option>
-                                        <option value="sales">Sales Question</option>
-                                        <option value="partnership">Partnership</option>
-                                        <option value="other">Other</option>
-                                    </select>
-                                </div>
-
-                                <div className="form-group">
-                                    <label htmlFor="message">Message <span className="required">*</span></label>
-                                    <textarea id="message" name="message" rows="6" placeholder="Tell us how we can help you..." required></textarea>
-                                </div>
-
-                                <div className="form-group checkbox-group">
-                                    <label className="checkbox-label">
-                                        <input type="checkbox" name="newsletter" />
-                                        <span className="checkmark"></span>
-                                        Subscribe to our newsletter for updates and news
-                                    </label>
-                                </div>
-
-                                <div className="form-group checkbox-group">
-                                    <label className="checkbox-label">
-                                        <input type="checkbox" name="copy" />
-                                        <span className="checkmark"></span>
-                                        Send me a copy of this message
-                                    </label>
-                                </div>
-
-                                <button type="submit" className="submit-btn">
-                                    <span className="btn-text">Send Message</span>
-                                    <svg className="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                                        <path d="M2.01 21L23 12L2.01 3L2 10L17 12L2 14L2.01 21Z"/>
-                                    </svg>
-                                </button>
-                            </form>
-                        </div>
                     </div>
                 </div>
             </section>

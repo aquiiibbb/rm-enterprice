@@ -112,13 +112,7 @@ export default function Header() {
                             Support
                         </button>
                         <div className={`calgon-dropdown-panel ${isDropdownOpen ? 'show' : ''}`}>
-                            <button 
-                                className="calgon-dropdown-link"
-                                onClick={() => handleNavClick('/service')}
-                            >
-                                <span className="dropdown-icon">🔧</span>
-                                Service Support
-                            </button>
+                           
                             <button 
                                 className="calgon-dropdown-link"
                                 onClick={() => handleNavClick('/costomer')}
